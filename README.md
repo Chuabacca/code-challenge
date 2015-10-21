@@ -1,5 +1,5 @@
 # code-challenge
-#### An HTML email design
+#### A custom HTML email design
 
 This project is a custom designed HTML email that features modular table segments and multiple column responsive design segments, an element that appears to break the table structure, and progressive enhancement with an animated gif and text shadow for clients that support them.
 
