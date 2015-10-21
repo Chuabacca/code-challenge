@@ -1,8 +1,9 @@
 # code-challenge
-An HTML email design
+#### An HTML email design
 
-I completed this email design before I realized that the instructions were specifically to code the design specified in the challenge. Here are the steps I took to create this email.
+This project is a custom designed HTML email that features modular table segments and multiple column responsive design segments, an element that appears to break the table structure, and progressive enhancement with an animated gif and text shadow for clients that support them.
 
+#### Design Process
 <ol>
 <li>Why? What is the purpose of this email design?</li>
   <ul>
@@ -17,7 +18,7 @@ I completed this email design before I realized that the instructions were speci
 <li>Upload project to GitHub</li>
 </ol>
 
-## unresolved issues
+#### Unresolved Issues
 I was unable to find a solution for these issues.
 <ol>
 <li>Inconsistent line spacing in Outlook for "The Dark Side" text.</li>
