@@ -1,0 +1,769 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-compatible" content="IE=edge" />
+    	<title>Emails and the Force</title>
+        <style>
+            body {
+            	margin: 0;
+                padding: 0;
+                min-width: 100%;
+            }
+            table {
+                    margin: 0 auto !important;
+            }
+            @media screen and (max-width: 600px) {
+            	.center {
+            		text-align: center !important;
+                }
+                .cellCenter {
+                	align-content: center !important;
+                }
+            }
+            @media screen and (max-width: 375px) {
+            	.mText {
+            		font-size: 22px !important;
+                }
+            	
+            }
+        </style>
+	</head>
+	<body style="margin: 0; padding: 0; min-width: 100%;">
+        
+        <!-- PREHEADER TEXT, HIDDEN, LIKE THE SITH -->
+		<div style="display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; width: 0px; opacity: 0; overflow: hidden;">
+		An epic saga of the Light Side, the Dark Side, and HTML email.
+		</div>
+        
+        <!-- MY AWESOME HEADER -->
+        <table bgcolor="#3c3c3c" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+        				<!--[if mso]>
+        				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+            			<tr>
+                		<td>
+                		<![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+    					<tr>
+  							<td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 30px">
+								
+                                <!-- LEFT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="300"> 
+                                        <tr>
+                                            <td>
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #ffffff; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 100;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" alt="Chua Logo" style="color: #ffffff; font-family: sans-serif; font-size: 20px; font-weight: bold; vertical-align: middle;" width="60" height="60"/>
+                                                    <!--[if gte mso 12]>
+                            							</td>
+                            							<td align="left" valign="middle" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 100; padding: 0 auto; vertical-align: middle;">
+                        							<![endif]-->
+                                                            chuabacca
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- RIGHT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="left" valign="middle" border="0" cellspacing="0" cellpadding="0" width="300">
+                                        <tr>
+                                            <td valign="middle">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" height="50">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #aaaaaa; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 14px; font-weight: 100; padding-top: 14px; padding-right: 34px; padding-bottom: 14px; padding-left: 34px;text-align: right;">
+                                                            <a href="https://twitter.com/theChuabacca" style="color: #aaaaaa; text-decoration: none;" target="_blank">@theChuabacca</a><br/>
+                                                            <a href="https://github.com/Chuabacca" style="color: #aaaaaa; text-decoration: none;" target="_blank">Github: Chuabacca</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END MY AWESOME HEADER -->
+                    
+        <!-- A LOOOOOONG TIME AGO -->
+        <table align="center" bgcolor="#e03039" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td style="font-size: 0; text-align: center; padding: 0 20px" width="100%">
+                                <div style="display: inline-block;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                                        <tr>
+                                            <td>
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; font-weight: bold; padding: 30px 0">
+                                                a long time ago in a galaxy far, far away...
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" style="display: block;">
+                                                <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/falcon-round.png" alt="The fastest hunk of junk in the galaxy" style="font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="200" height="200"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" class="mText" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 300; padding: 30px 0;">
+                                                It is a period of galactic civil war. Email clients are fractured and render HTML in over a dozen different ways. Developers rebel against Imperial tyrany and fight to bring order and a consistent user experience to the inbox.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    	<!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    	
+                </td>
+            </tr>
+        </table>
+        <!-- END A LOOOOOONG TIME AGO -->
+        
+        <!-- TRIPLE THREAT -->
+        <table bgcolor="#fff8dc" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/triangle.png" style="align: top; display: block;margin: 0;padding: 0;"
+width="200"/>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 40px; font-weight: bold; padding-top: 20px; text-transform: uppercase;">
+                    Determined forces
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 18px; padding: 0 20px;">
+                    break through Imperial blockades and table boundaries with illusions of color and shape.
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr> 
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                              <td align="center" style="text-align: center; font-size: 0; padding-top: 50px; padding-bottom: 50px;">
+                                
+                                <!-- LEFT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="200"> 
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/luke-round.png" alt="Luke" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="100" height="100"/><br/>
+                                                    		Using the power of nested tables and conditional code...
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- CENTER CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="200">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/leia-round.png" alt="Leia" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="100" height="100"/><br/>
+                                                            ...these freedom fighters bring solid responsive design to users...
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- RIGHT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="200">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/han-round.png" alt="Han" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="100" height="100"/><br/>
+                                                            ...from the masses in the Core Worlds to the edge cases in the Outer Rim.
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END TRIPLE THREAT -->
+		
+        <!-- THE DARK SIDE -->
+        <table bgcolor="#1A1B1B" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td align="center" style="text-align: center; font-size: 0; padding-top: 50px;">
+                                
+                                <!-- LEFT 60 CONTAINER -->
+                                <div style="display: inline-block; vertical-align: middle;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" style="max-width: 360px;">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 14px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/vader.png" alt="Vader" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold; max-width: 300px;" height="auto"/>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- RIGHT 40 CONTAINER -->
+                                <div style="display: inline-block; vertical-align: middle;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="240">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" style="mso-line-height-rule: exactly;" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #aaaaaa; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 18px; mso-line-height-rule: exactly;">
+                                                            But<br/><br/><span style="font-size: 60px; font-weight: bold; line-height: .75; text-transform: uppercase; mso-line-height-rule: exactly;">the<br/>Dark Side</span><br/>&nbsp;
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        
+        <table bgcolor="#1A1B1B" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+            		<table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+            			<tr>
+                			<td align="center" style="color: #aaaaaa; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 18px; padding: 30px 20px 50px 20px;">
+                    still threatens to choke creativity with iron-fisted email preprocessors that intercept crucial segments of code and merciless word-processing rendering engines that ignore common styles like max-width.
+                			</td>
+            			</tr>
+                    </table>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END THE DARK SIDE -->
+        
+        <!-- BALANCE OF THE FORCE -->
+        <table bgcolor="#fff8dc" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center" style="padding: 50px 0 50px 0;">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 60px; font-weight: bold;">
+                            	BALANCE
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold;">
+                                of the
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 60px; font-weight: bold; ">
+                				FORCE
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; padding: 40px 20px 0 20px;">
+                                can be attained, even in Gmail without media query support, with fluid design using well-placed divs, tables, and flexible containers.
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        
+        <table bgcolor="#fff8dc" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td align="center" style="text-align: center; font-size: 0;">
+                                
+                                <!-- CONTAINER 1 -->
+                                <div style="display: inline-block;">
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="300"> 
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chewie.png" alt="Chewie" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="200" height="200"/><br/><!--[if mso 12]>&nbsp;<![endif]--><!--[if mso 15]>&nbsp;<![endif]-->
+                                                            <a href="https://github.com/Chuabacca/code-challenge" target="_blank">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#019033" style="color: #ffffff; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:200px;-webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
+                                            chewbacca
+                                        </td>
+                                    </tr>
+                                </table>
+                                </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- CONTAINER 2 -->
+                                <div style="display: inline-block;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="300">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/fett.png" alt="Boba Fett" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="200" height="200"/><br/><!--[if mso 12]>&nbsp;<![endif]--><!--[if mso 15]>&nbsp;<![endif]-->
+                                                            <a href="https://github.com/Chuabacca/code-challenge" target="_blank">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#73716E" style="color: #ffffff; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:200px;-webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
+                                            boba fett
+                                        </td>
+                                    </tr>
+                                </table>
+                                </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                        <!--[if gte mso 12]>
+                            </td>
+						</tr>
+						<tr>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- CONTAINER 3 -->
+                                <div style="display: inline-block;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="300">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/r2.png" alt="R2-D2" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="200" height="200"/><br/><!--[if mso 12]>&nbsp;<![endif]--><!--[if mso 15]>&nbsp;<![endif]-->
+                                                            <a href="https://github.com/Chuabacca/code-challenge" target="_blank">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#E65D33" style="color: #ffffff; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:200px;-webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
+                                            r2-d2
+                                        </td>
+                                    </tr>
+                                </table>
+                                </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- CONTAINER 4 -->
+                                <div style="display: inline-block;">
+                                    <table align="center" valign="middle" border="0" cellspacing="0" cellpadding="0" width="300">
+                                        <tr>
+                                            <td align="center" style="padding: 10px;">
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 16px;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/trooper.png" alt="Han" style="display: block; font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="200" height="200"/><br/><!--[if mso 12]>&nbsp;<![endif]--><!--[if mso 15]>&nbsp;<![endif]-->
+                                                            <a href="https://github.com/Chuabacca/code-challenge" target="_blank">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#6E7989" style="color: #ffffff; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:200px;-webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
+                                            stormtrooper
+                                        </td>
+                                    </tr>
+                                </table>
+                                </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                  
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]--> 
+                </td>
+            </tr>
+        </table>
+        
+        <table bgcolor="#fff8dc" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 28px; font-weight: bold; padding: 50px 20px 50px 20px; text-transform: uppercase;">
+                                No matter how you resize it.
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END BALANCE OF THE FORCE -->
+        
+        <!-- PREPARE FOR GROUND ASSAULT -->
+        <table align="center" bgcolor="#262322" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if gt mso 11]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td style="font-size: 0; text-align: center; padding: 0 20px" width="100%">
+                                <div style="display: inline-block;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                                        <tr>
+                                            <td>
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 30px; font-weight: bold; padding: 50px 20px 0 20px; text-shadow: 1px 2px 0px #ec5639; text-transform: uppercase;">
+                                                Harpoons and Tow Cables
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; padding-bottom: 30px;">
+                                                when that armor is too strong for blasters.
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" style="display: block;">
+                                                <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/at-at.gif" style="font-family: sans-serif; font-size: 20px; color: #777777; font-weight: bold;" width="100%" height="auto"/> 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" class="mText" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 300; padding-top: 30px; padding-bottom: 50px; padding-left: 20px; padding-right: 20px;">
+                                                And<br/><span style="font-size: 30px; font-weight: bold; text-shadow: 1px 2px 0px #ec5639; text-transform: uppercase;">progressive enhancement</span><br/>when clients support animated gifs and text shadows.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                        <!--[if gt mso 11]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        
+                </td>
+            </tr>
+        </table>
+        <!-- END PREPARE FOR GROUND ASSAULT -->
+        
+        <!-- CLICK MEEEEEEE -->
+        <table bgcolor="#fff8dc" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center" style="padding: 50px 0 50px 0;">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 40px; font-weight: bold; padding: 0 20px 30px 20px; text-transform: uppercase;">
+                                Thanks for reading!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding: 20px;">
+                                <a href="https://github.com/Chuabacca/code-challenge" target="_blank">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    	<td bgcolor="#e03039" style="color: #ffffff; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:250px;-webkit-text-size-adjust:none; padding-top: 12px; padding-bottom: 12px;">
+                                    		view my repository
+                                    	</td>
+                                    </tr>
+                                </table>
+                            	</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; padding: 0 20px 0 20px;">
+                                Design process, Litmus tests, and more.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="color: #777777; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 18px; padding: 0 20px 0 20px;">
+                            </td>
+                        </tr>
+                    </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END CLICK MEEEEEEE -->
+        
+        <!-- MY AWESOME FOOTER -->
+        <table bgcolor="#3c3c3c" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td align="center">
+                    
+                    <!-- FIXED WIDTH CONTAINER -->
+                        <!--[if mso]>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" width="100%">
+                        <tr>
+                              <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 30px">
+                                
+                                <!-- LEFT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="300"> 
+                                        <tr>
+                                            <td>
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #ffffff; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 100;">
+                                                            <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" alt="Chua Logo" style="color: #ffffff; font-family: sans-serif; font-size: 20px; font-weight: bold; vertical-align: middle;" width="60" height="60"/>
+                                                    <!--[if gte mso 12]>
+                                                        </td>
+                                                        <td align="left" valign="middle" style="color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 100; padding: 0 auto; vertical-align: middle;">
+                                                    <![endif]-->
+                                                            chuabacca
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                        <!--[if gte mso 12]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                                
+                                <!-- RIGHT CONTAINER -->
+                                <div style="display: inline-block;">
+                                    <table align="left" valign="middle" border="0" cellspacing="0" cellpadding="0" width="300">
+                                        <tr>
+                                            <td valign="middle">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" height="50">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="color: #aaaaaa; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; display: block; font-size: 11px; font-weight: 300; line-height: 18px; padding-top: 14px; padding-bottom: 14px; text-align: right; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
+                                                            Email created by Jonathan Chua  |  <a href="mailto:jchua.yf@gmail.com?Subject=Awesome%20Email%20Design" style="color: #aaaaaa; text-decoration: none;" target="_top">jchua.yf@gmail.com</a><br/>
+                                                            Icons created by <a href="https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons" target="_blank" style="color: #aaaaaa; text-decoration: none;">Filipe Carvalho</a> and <a href="http://www.downthestreetdesigns.us/blogs/2014/12/15/collaboration-is-too-strong-for-blasters" target="_blank" style="color: #aaaaaa; text-decoration: none;">Down the Street Designs</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                </td>
+            </tr>
+        </table>
+        <!-- END MY AWESOME HEADER -->
+        
+	</body>
+</html>
